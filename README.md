@@ -4,9 +4,7 @@
 ## Introduction
 Algorithmic Alchemists website hosted at [Coming Soon](#)  
 Do not use, copy, modify, or distribute. 
-
-Code by [Aarav Mehta](https://aaravm.me/).  
-
+  
 ## Thanks to these open-sources
 Thanks to the open sources ❤ that power this website.  
 Without them, the website would never be so full equipped.  
