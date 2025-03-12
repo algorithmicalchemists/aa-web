@@ -1,4 +1,5 @@
 //Footer time
+
 function nowTime() {
     var today = new Date();
     var yyyy = today.getFullYear();
@@ -17,4 +18,15 @@ $(window).on('load', function () {
 function dark() {
     var element = document.body;
     element.classList.toggle("dark-mode");
+  }
+
+  function darkmode() {
+    const wasDarkmode = localStorage.getItem('darkmode') === 'true';
+    localStorage.setItem('darkmode', !wasDarkmode);
+    const element = document.body;
+    element.classList.toggle('dark-mode', !wasDarkmode);
+  }
+  
+  function onload() {
+    document.body.classList.toggle('dark-mode', localStorage.getItem('darkmode') === 'true');
   }
