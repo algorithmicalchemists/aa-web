@@ -9,6 +9,12 @@ body {
 .content {
     display: none;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
 ::-webkit-scrollbar {
     width: 12px;
     height: 5px;
